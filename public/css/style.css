@@ -1,0 +1,28 @@
+body {
+    background-image: url("../img/badger.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    font-family: "Catamaran", sans-serif;
+}
+
+h1 {
+    font-family: "Anton", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #ff3a3a;
+    -webkit-text-stroke: 1px black;
+}
+
+#nameForm {
+    margin-left: 10%;
+}
+
+#nameInput {
+    width: 80%;
+    float: left;
+}
+
+#submitNameBtn {
+    border-color: black;
+    background-color: #ff3a3a;
+}
