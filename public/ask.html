@@ -10,27 +10,25 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container" id="indexContainer">
-        <h1>new phone who this</h1>
-        
-        <form id="nameForm">
-            <input
-                type="text"
-                id="nameInput"
-                class="form-control"
-                placeholder="Enter your full name"
-                required
-            />
+    <div class="container" id="askContainer">
+        <h1 id="askTitle">would you like to give dessert to badger?</h1>
+
+        <div id="askBtns">
             <button
                 type="submit"
-                id="submitNameBtn"
-                class="btn btn-primary">this me</button>
-        </form>
+                id="yesDonateBtn"
+                class="btn btn-primary askBtn">yes</button>
+
+            <button
+                type="submit"
+                id="noDonateBtn"
+                class="btn btn-primary askBtn">no</button>
+        </div>
     </div>
 
     <script src="https://unpkg.com/blueimp-md5@2.4.0/js/md5.min.js"></script>
     <script src="https://www.gstatic.com/firebasejs/3.6.1/firebase.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
-    <script type="text/javascript" src="js/login.js"></script>
+    <script type="text/javascript" src="js/ask.js"></script>
 </body>
 </html>

@@ -13,6 +13,31 @@ h1 {
     -webkit-text-stroke: 1px black;
 }
 
+.btn-primary {
+    border-color: black;
+    background-color: #ff3a3a;
+}
+
+.btn-primary:hover {
+    background-color: #dd3333;
+}
+
+/*a {
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff3a3a;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #dd3333;
+}*/
+
+#indexContainer {
+    margin-top: 250px;
+}
+
 #nameForm {
     margin-left: 10%;
 }
@@ -22,7 +47,77 @@ h1 {
     float: left;
 }
 
-#submitNameBtn {
-    border-color: black;
-    background-color: #ff3a3a;
+@media(max-width: 767px) {
+    #indexContainer {
+        margin-top: 40%;
+    }
+
+    #nameInput {
+        width: 70%;
+        float: left;
+    }
+}
+
+#askContainer {
+    margin-top: 250px;
+}
+
+#askTitle {
+    width: 50%;
+    margin-left: 25%;
+}
+
+#askBtns {
+    text-align: center;
+}
+
+.askBtn {
+    margin: 5px;
+    width: 100px;
+    font-size: 20px;
+}
+
+@media(max-width: 767px) {
+    #askContainer {
+        margin-top: 40%;
+    }
+
+    #askTitle {
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+#selectContainer {
+    margin-top: 150px;
+}
+
+#dessertForm {
+    margin-left: 45%;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+    color: #ff3a3a;
+}
+
+@media(max-width: 767px) {
+    #selectContainer {
+        margin-top: 35%;
+    }
+
+    #dessertForm {
+        margin-left: 30%;
+    }
+}
+
+#thanksContainer {
+    margin-top: 300px;
+}
+
+@media(max-width: 767px) {
+    #thanksContainer {
+        margin-top: 50%;
+    }
 }
