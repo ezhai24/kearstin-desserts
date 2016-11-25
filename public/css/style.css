@@ -121,3 +121,14 @@ label {
         margin-top: 50%;
     }
 }
+
+.foolList {
+    margin-bottom: 20px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: white;
+}
+
+.removeFoolBtn {
+    float: right;
+}

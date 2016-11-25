@@ -15,7 +15,6 @@ submitDessertBtn.addEventListener("click", function(e) {
     // Update firebase with selected dessert
     dessertEntry.update({
         dessert: radioBtns[index].value,
-        response: "yes"
     })
     .then(function() {
         // send alert

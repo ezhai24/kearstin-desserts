@@ -19,5 +19,10 @@ var yesDonateBtn = document.getElementById("yesDonateBtn");
 yesDonateBtn.addEventListener("click", function(e) {
     e.preventDefault();
 
-    window.location.href = "select.html";
+    dessertEntry.update({
+        response: "yes"
+    })
+    .then(function() {
+        window.location.href = "select.html";
+    });
 });
